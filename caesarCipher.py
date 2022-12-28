@@ -4,13 +4,13 @@
 # Rajat Hooja
 
 strKey = "abcdefghijklmnopqrstuvwxyz"
-intKeyLength = len(strKey)
 intOffset = 5
 
 strInput = "encode this sample string with a specified offset".strip()
 # strInput = "abcdefghijklmnopqrstuvwxyz"
-strOutput = ""
 
+intKeyLength = len(strKey)
+strOutput = ""
 intNewCharIndex = 0
 
 for charCurrent in strInput:
