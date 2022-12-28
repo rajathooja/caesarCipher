@@ -6,10 +6,11 @@
 strKey = "abcdefghijklmnopqrstuvwxyz"
 intOffset = 5
 
-strInput = "encode this sample string with a specified offset".strip()
+strInput = "encode this sample string with a specified offset"
 # strInput = "abcdefghijklmnopqrstuvwxyz"
 
 intKeyLength = len(strKey)
+strInput = strInput.strip()
 strOutput = ""
 intNewCharIndex = 0
 
